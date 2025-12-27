@@ -11,7 +11,7 @@ def max_joltage(input_str: str, num_digits: int) -> int:
   return int(result)
 
 def main():
-  """Solution for Advent of Code 2025, XX.
+  """Solution for Advent of Code 2025, 3B.
      Input has not changed, but copied to b.in anyway."""
   # Start timing once we're in main(). Initialization of variables is included.
   start_time = time.perf_counter()
