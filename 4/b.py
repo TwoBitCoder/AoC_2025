@@ -42,7 +42,7 @@ def main():
   grid = []
 
   # Read input - make it mutable
-  with open("a.in", 'r') as input_file:
+  with open("b.in", 'r') as input_file:
     for input_line in input_file:
       grid.append(list(input_line))
 
