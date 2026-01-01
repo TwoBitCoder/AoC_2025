@@ -2,6 +2,7 @@ import time
 from math import prod
 
 def process(problem: tuple) -> int:
+  """Operator as str in [0], values as ints in [1:]."""
   match problem[0]:
     case '+':
       return sum(problem[1:])
